@@ -1,8 +1,34 @@
+@font-face {
+    font-family: 'DoubleFeature20';
+    src: url('fonts/DoubleFeature20.ttf');
+}
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     background-color: #000;
+    font-family: "Courier New";
+}
+
+h2 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 550px;
+    left: 0;
+    width: 100%;
+    color: #BD0001;
+    text-align: center;
+}
+
+section {
+    margin-top: 65px;
+}
+
+nav {
+    background-color: white;
 }
 
 img {
@@ -10,20 +36,26 @@ img {
     margin-left: auto;
     margin-right: auto;
     background-size: contain;
-    width: 60%;
     min-height: 650px;
+    max-width: 750px;
     position: relative
 }
 
-h2 { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute; 
-    top: 550px; 
-    left: 0; 
-    width: 100%; 
+ul {
+  
+  font-family: 'DoubleFeature20', 'Courier New';
+}
+
+label {
     color: #BD0001;
-    text-align: center;
-    font-family: "Courier New"
+}
+
+.bodies-section {
+    color: #BD0001;
+}
+
+.bodies-section ul {
+    list-style-type: none;
+    font-size: 32px;
+    padding-left: 0px;
 }
